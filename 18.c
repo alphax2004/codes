@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    long long ans,n;
+    scanf("%lld",&n);
+    if(n%2==0)
+    {
+        ans=n/2;
+    }
+    else{
+        ans=-((n+1)/2);
+    }
+    printf("%lld\n",ans);
+}
